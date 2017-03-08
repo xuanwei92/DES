@@ -192,7 +192,6 @@ function permute()
     outputTextArea(outputArray,"ipOutput");
 
     scroll("startDiv");
-   //document.getElementById('startDiv').scrollIntoView();
 }
 
 function generatedClickPTable()
@@ -1544,11 +1543,13 @@ function generatedClickFinalPTable() {
 function displayFinalResult()
 {
     var outputArray = addToArray("finalPermOutput");
-
     var hexArray = convertBinToHex(outputArray);
 
+    $('#finalResultBinBody').append(
+        '<tr>' + '<th scope="row" class="tHeader2">' + "In Binary" +'</th>' + '<td>' + outputArray.join("") + '</td>' + '</tr>');
+
     $('#finalResultBody').append(
-        '<tr>' + '<th scope="row" class="tHeader2">' + "Final Result (in Hex)" +'</th>' + '<td>' + hexArray + '</td>' + '</tr>');
+        '<tr>' + '<th scope="row" class="tHeader2">' + "In Hexadecimal" +'</th>' + '<td>' + hexArray + '</td>' + '</tr>');
 
 }
 

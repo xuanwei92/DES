@@ -38,10 +38,16 @@ footer {
 .image{
     alignment: center;
 }
-.margin2 {padding-left:155px; margin-bottom: 35px;}
-.margin3 {padding-left:340px; margin-bottom: 10px;}
+.margin2 {padding-left:155px; margin-bottom: 10px;}
+.margin3 {padding-left:360px; margin-bottom: 10px;}
+.margin4 {padding-left:550px;}
+
 .margin {alignment:center; margin-bottom: 40px; font-family: "Gill Sans MT"}
-.structureImg {padding-left:450px}
+.structureImg {padding-left:470px}
+.structureImg1 {padding-left:80px}
+.structureImg2 {padding-left:40px}
+.structureImg3 {padding-top: 25px}
+.structureImg4 {padding-left:30px}
 .bg-1 {
     background-color: #9d9d9d; /* Green */
     color: #ffffff;

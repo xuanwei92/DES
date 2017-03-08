@@ -37,8 +37,8 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/mainpage.php">Structure</a></li>
-                <li><a href="/encryption.php">Encryption Demo</a></li>
+                <li><a href="components/mainpage.php">Structure</a></li>
+                <li><a href="components/encryption.php">Encryption Demo</a></li>
             </ul>
         </div>
     </div>
@@ -62,14 +62,14 @@
             It was a highly influential algorithm in the advancement of modern cryptography.</p>
     </div>
     <br>
-    <a href="encryption.php" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-display"></span> Click to View Demo</a>
+    <a href="components/encryption.php" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-display"></span> Click to View Demo</a>
 </div>
 
 <!-- Third Container (Grid) -->
 <div class="container-fluid bodyContainer bg-3 text-center">
     <div class="row">
         <div class="col-sm-4">
-            <div class="panel panel-danger">
+            <div class="panel panel-info">
                 <div class="panel-heading"><div class="image"><img src="img/History.png" class="img-responsive" style="width:100%"></div></div>
                 <div class="panel-body"><p class="p">In 1973, NIST sought for tender for a national symmetric-key cryptographic system. IBM tendered an adaptation of a project named Lucifer and was approved as DES.
                         In March 1975, DES was promulgated in the Federal Register as a blueprint of the Federal Information Processing Standard (FIPS).</p>
@@ -81,18 +81,18 @@
             </div>
         </div>
         <div class="col-sm-4">
-            <div class="panel panel-danger">
+            <div class="panel panel-info">
                 <div class="panel-heading"><div class="image"><img src="img/Algo.png" class="img-responsive" style="width:100%"></div></div>
                 <div class="panel-body"><p class="p">The DES encryption algorithm consists of two permutations i.e Initial and Final Permutation and sixteen Feistel cipher rounds. </p>
                    <p class="p">Each round uses a different 48-bit round key generated from the cipher key according to a predefined algorithm described in the Encryption Key section.</p>
                 <p class="p">In the Initial or Final Permutation, both takes a 64-bit input and permutes them according to a predefined table and can be seen as a 64-element array in which the value of each element defines the input port number
                     and the index of the element defines the output port number.</p>
-                <p class="p">Each Feistel cipher is the heart of DES where it consists of 4 sections: an expansion P-box, a whitener (that adds key), a group of S-boxes, and a straight P-box.</p>
+                <p class="p">The DES function is the heart of DES in each Feistel cipher where it consists of 4 sections: an expansion P-box, a whitener (that adds key), a group of S-boxes, and a straight P-box.</p>
                 <p class="p">Finally, with mixers and swappers, the DES cipher and reverse cipher is created for encryption and decryption respectively.</p></div>
             </div>
         </div>
         <div class="col-sm-4">
-            <div class="panel panel-danger">
+            <div class="panel panel-info">
                 <div class="panel-heading"> <div class="image"><img src="img/key.png" class="img-responsive" style="width:100%; alignment =center"></div></div>
                 <div class="panel-body">
                     <p class="p">The round-key generator form sixteen 48-bit keys out of a 56-bit cipher key entered. Despite that, the cipher key is always a 64-bit key in which 8 extra bits
@@ -105,13 +105,13 @@
             </div>
         </div>
     </div>
-    <a href="/mainpage.php" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-display"></span> Click to Read More</a>
+    <a href="components/mainpage.php" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-display"></span> Click to Read More</a>
 </div>
 
 
 <!-- Footer -->
 <footer class="container-fluid bodyContainer bg-4 text-center">
-    <span class="glyphicon glyphicon-copyright-mark"</span><p class="pFooter">Designed By Tan Xuan Wei, NTU SCSE Final Year Project 2016/2017</p>
+    <span class="glyphicon glyphicon-copyright-mark"></span><p class="pFooter">Designed By Tan Xuan Wei, NTU SCSE Final Year Project 2016/2017</p>
 </footer>
 
 </body>

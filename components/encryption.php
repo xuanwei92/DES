@@ -21,7 +21,7 @@
     <div class="tab-content">
 
         <!--- Main Function Tab --->
-        <div id="home" class="tab-pane fade in active">
+        <div id="home" class="tab-pane fade in active">2
            <?php include 'components/mainFunction.php' ?>
         </div>
 

@@ -600,6 +600,11 @@
     <div class="col-sm-10 col-md-10 stepsTab2b">
         <span class="label label-default lblWOps"> Final Result</span>
         <div class="tableSpace">
+            <table class="table table-condensed table-bordered table-responsive" id="finalResultBin">
+                <tbody id="finalResultBinBody"></tbody>
+            </table>
+        </div>
+        <div class="tableSpace">
             <table class="table table-condensed table-bordered table-responsive" id="finalResult">
                 <tbody id="finalResultBody"></tbody>
             </table>

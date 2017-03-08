@@ -5,7 +5,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php">Data Encryption Standard (DES) Web Demo</a>
+            <a class="navbar-brand" href="../index.html">Data Encryption Standard (DES) Web Demo</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
